@@ -125,7 +125,7 @@ window.SITE = {
   videos: [
     {
       title: "Chef Agent",
-      description: "The Chef Agent knows what is in your pantry, what tools do you have and he builds a recipe based on your cravings",
+      description: "An AI cooking assistant that builds recipes around what you actually have. Tell it what’s in your pantry, which kitchen tools you own, and what you’re craving, and it creates a personalized recipe to match.",
       video: "videos/Chef_agent.mp4", duration: "3:32", thumbnail: "assets/testing.jpg",
     },
     {
