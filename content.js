@@ -129,9 +129,9 @@ window.SITE = {
       video: "videos/Chef_agent.mp4", duration: "3:32", thumbnail: "assets/testing.jpg",
     },
     {
-      title: "[PROJECT 02 TITLE]",
-      description: "[Short description: what the video shows, in one or two sentences.]",
-      video: "", duration: "0:00", thumbnail: "",
+      title: "Webscraping Agent",
+      description: "An autonomous agent designed to ingest a target URL, interactively clarify extraction goals and data requirements, and parse a local schema.md to define the output dataset structure. It generates a preview pilot for user validation before executing the final web scraping pipeline.",
+      video: "videos/webscraper1.mp4", duration: "5:29", thumbnail: "assets/webscraping.jpg",
     },
     {
       title: "[PROJECT 03 TITLE]",
