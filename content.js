@@ -133,10 +133,20 @@ window.SITE = {
       description: "An autonomous agent designed to ingest a target URL, interactively clarify extraction goals and data requirements, and parse a local schema.md to define the output dataset structure. It generates a preview pilot for user validation before executing the final web scraping pipeline.",
       video: "videos/webscraper1.mp4", duration: "5:29", thumbnail: "assets/webscraping.jpg",
     },
-    /*{
+    {
       title: "[PROJECT 03 TITLE]",
       description: "[Short description: what the video shows, in one or two sentences.]",
       video: "", duration: "0:00", thumbnail: "",
-    },/*
+    },
+    {
+      title: "[PROJECT 04 TITLE]",
+      description: "[Short description: what the video shows, in one or two sentences.]",
+      video: "", duration: "0:00", thumbnail: "",
+    },
+    {
+      title: "[PROJECT 05 TITLE]",
+      description: "[Short description: what the video shows, in one or two sentences.]",
+      video: "", duration: "0:00", thumbnail: "",
+    },
   ],
 };
