@@ -75,7 +75,7 @@ window.SITE = {
     {
      title: "Customer Churn: Logistic Regression, Random Forest & XGBoost by Business Loss",
      tags: ["Classification", "Churn prediction", "Business insights"],
-     tools: ["Python", "Pandas", "scikit-learn", "XGBoost", "Statsmodels", "Matplotlib/Seaborn"],
+     tools: ["Python", "Pandas", "scikit-learn", "XGBoost", "Statsmodels"],
      description: "Built and compared three churn models on 7,043 telecom customers, evaluating them by the revenue lost on missed churners at equal outreach workload, with bootstrap uncertainty.",
      results: ["Contract type, tenure, internet service type and electronic-check payment were the strongest predictors of churn in all three models","XGBoost with the default 0.5 cutoff had the lowest loss of missed churners, but it reached more customers. At equal workload all three models were tied, so outreach size, not model choice, drove most of the difference."],
      link: "https://www.kaggle.com/code/omershriky/customer-churn-lr-random-forest-xgboost",
@@ -133,20 +133,10 @@ window.SITE = {
       description: "An autonomous agent designed to ingest a target URL, interactively clarify extraction goals and data requirements, and parse a local schema.md to define the output dataset structure. It generates a preview pilot for user validation before executing the final web scraping pipeline.",
       video: "videos/webscraper1.mp4", duration: "5:29", thumbnail: "assets/webscraping.jpg",
     },
-    {
+    /*{
       title: "[PROJECT 03 TITLE]",
       description: "[Short description: what the video shows, in one or two sentences.]",
       video: "", duration: "0:00", thumbnail: "",
-    },
-    {
-      title: "[PROJECT 04 TITLE]",
-      description: "[Short description: what the video shows, in one or two sentences.]",
-      video: "", duration: "0:00", thumbnail: "",
-    },
-    {
-      title: "[PROJECT 05 TITLE]",
-      description: "[Short description: what the video shows, in one or two sentences.]",
-      video: "", duration: "0:00", thumbnail: "",
-    },
+    },/*
   ],
 };
