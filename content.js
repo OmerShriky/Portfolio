@@ -73,6 +73,22 @@ window.SITE = {
      (in Colab: Share → "Anyone with the link" → Copy link)               */
   projects: [
     {
+     title: "Customer Churn: Logistic Regression, Random Forest & XGBoost by Business Loss",
+     tags: ["Classification", "Churn prediction", "Business insights"],
+     tools: ["Python", "Pandas", "scikit-learn", "XGBoost", "Statsmodels", "Matplotlib/Seaborn"],
+     description: "Built and compared three churn models on 7,043 telecom customers, evaluating them by the revenue lost on missed churners at equal outreach workload, with bootstrap uncertainty.",
+     results: ["Contract type, tenure, internet service type and electronic-check payment were the strongest predictors of churn in all three models","XGBoost with the default 0.5 cutoff had the lowest loss of missed churners, but it reached more customers. At equal workload all three models were tied, so outreach size, not model choice, drove most of the difference."],
+     link: "https://www.kaggle.com/code/omershriky/customer-churn-lr-random-forest-xgboost",
+   },
+    {
+      title: "Fashion-MNIST: Image Classification & Clustering",
+      tags: ["Neural Network", "Clustering","Python"],
+      tools: ["torch", "scikit-learn"],
+      description: "End-to-end pipeline that preprocesses Fashion-MNIST images, trains classification models, and compares clustering methods for grouping clothing items by category.",
+      results: ["AE + GMM combination achieved the best performance, with the highest ARI, NMI, and Accuracy among all pipelines", "A 32-dimensional autoencoder latent space preserved class structure better than a 2-dimensional one, which led to better clustering."],
+      link: "https://colab.research.google.com/drive/1NbI1YhZFz0yFvw7QMKrYiwkeOLx-8Mk0?usp=sharing",
+    },
+    {
       title: "Los Angeles Crime Rate 2020-2024",
       tags: ["Python","Statistics", "ETL", "RestAPI"],
       tools: ["Python", "Pandas", "Statsmodels","scipy"],
@@ -81,37 +97,21 @@ window.SITE = {
       link: "https://colab.research.google.com/drive/1XepGyEtA86tOsc2mlex9a-B7I_d1h82D?usp=sharing",
     },
     {
-      title: "[PROJECT TITLE]",
-      tags: ["Statistical analysis", "[TAG]"],
-      tools: ["Python", "Statistics"],
-      description: "[Short description: the question and the data, in one or two sentences.]",
-      results: ["[Key result 1]", "[Key result 2]"],
-      link: "https://colab.research.google.com/",
+      title: "Quantile Regression: An Explainer Notebook (Hebrew)",
+      tags: ["Machine Learning", "Statistics", "Mathematics"],
+      tools: ["Python", "statsmodels","scikit-learn"],
+      description: "Educational notebook (in Hebrew) explaining how quantile regression works, with worked examples that show it in practice.",
+      results: ["Shows that quantile regression is a good alternative when the assumptions of linear regression don't hold, such as constant variance and normally distributed errors."],
+      link: "https://colab.research.google.com/drive/17KFq3ekLO-Kpa4dIdzCE64tCogeLcfgW?usp=sharing",
     },
-    {
-      title: "[PROJECT TITLE]",
-      tags: ["Predictive model", "[TAG]"],
-      tools: ["Python", "Machine Learning"],
-      description: "[Short description: the question and the data, in one or two sentences.]",
-      results: ["[Key result 1]", "[Key result 2]"],
-      link: "https://colab.research.google.com/",
-    },
-    {
-      title: "[PROJECT TITLE]",
-      tags: ["Data cleaning", "[TAG]"],
-      tools: ["SQL", "Excel"],
-      description: "[Short description: the question and the data, in one or two sentences.]",
-      results: ["[Key result 1]", "[Key result 2]"],
-      link: "https://colab.research.google.com/",
-    },
-    {
+   /*   {
       title: "[PROJECT TITLE]",
       tags: ["[TAG]", "[TAG]"],
       tools: ["[TOOL]", "[TOOL]"],
       description: "[Short description: the question and the data, in one or two sentences.]",
       results: ["[Key result 1]", "[Key result 2]"],
       link: "https://colab.research.google.com/",
-    },
+    },*/
   ],
 
   /* ---------- Videos ----------
